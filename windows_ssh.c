@@ -255,4 +255,5 @@ static int cleanup(SOCKET in_ssh_socket)
 	}
 
 	WSACleanup();
+	return ret_value;
 }
